@@ -88,6 +88,15 @@ print(o1.instancevar4)
 
 '''
 
+class demo:
+
+    def __init__(self , a ,b):
+        self.instvar1 = a
+        self.instvar2 = b
+
+    def getvar(self, newvalue):
+        self.instvar1 = newvalue
+
 class demo1:
 
     def __init__(self , a ,b):
